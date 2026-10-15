@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Le Cocoon Homestay</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                LE COCOON
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#rooms">Rooms</a>
+                </li>
+
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+
+                <li>
+                    <a href="#location">Location</a>
+                </li>
+
+            </ul>
+
+            <a href="#booking" class="book-button">
+                Book Your Stay
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ========================================
+         HERO SECTION
+    ========================================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="location">
+                PONDICHERRY · INDIA
+            </p>
+
+            <h1>
+                A peaceful stay
+                <br>
+                in the heart of
+                <br>
+                Pondicherry.
+            </h1>
+
+            <p class="hero-text">
+                Thoughtfully designed spaces, warm hospitality,
+                and a place to truly feel at home.
+            </p>
+
+            <a href="#booking" class="hero-button">
+                Book Your Stay
+            </a>
+
+        </div>
+
+
+        <!-- HERO IMAGE SLIDER -->
+
+        <div class="hero-image">
+
+            <button
+                class="slider-button"
+                onclick="previousSlide()"
+                aria-label="Previous image">
+                &#10094;
+            </button>
+
+            <img
+                id="heroSlide"
+                src="images/slide1.jpg"
+                alt="Le Cocoon Homestay">
+
+            <button
+                class="slider-button"
+                onclick="nextSlide()"
+                aria-label="Next image">
+                &#10095;
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         ABOUT SECTION
+    ========================================= -->
+
+    <section class="about" id="about">
+
+        <!-- LEFT : HOUSE IMAGE -->
+
+        <div class="about-image">
+
+            <img
+                src="images/house.jpg"
+                alt="Le Cocoon Homestay">
+
+        </div>
+
+
+        <!-- RIGHT : ABOUT CONTENT -->
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT LE COCOON
+            </p>
+
+            <h2>
+                A stay that
+                <br>
+                feels like home.
+            </h2>
+
+            <p>
+                Le Cocoon is a peaceful homestay in Puducherry,
+                created for guests who want to relax, reconnect,
+                and enjoy a comfortable private stay.
+            </p>
+
+            <p>
+                From cozy rooms to calm surroundings,
+                every detail is designed to make your stay
+                feel warm, simple, and memorable.
+            </p>
+
+
+            <!-- HOST -->
+
+            <div class="host-profile">
+
+                <p class="host-label">
+                    MEET YOUR HOST
+                </p>
+
+                <div class="host-info">
+
+                    <img
+                        src="images/oviya.jpg"
+                        alt="Oviya Lakshman">
+
+                    <div>
+
+                        <h3>
+                            Oviya Lakshman
+                        </h3>
+
+                        <p class="instagram">
+                            @oviya__l
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <p class="host-description">
+                    Data analyst by profession, artist by passion,
+                    and a proud Puducherry local.
+                </p>
+
+                <a href="#booking" class="about-button">
+                    Stay With Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         ROOMS SECTION
+    ========================================= -->
+
+    <section class="rooms" id="rooms">
+
+        <p class="section-label">
+            OUR ROOMS
+        </p>
+
+        <h2>
+            Stay in comfort.
+        </h2>
+
+
+        <div class="room-container">
+
+            <!-- ROOM 1 -->
+
+            <div class="room-card">
+
+                <img
+                    src="images/queenbeds.jpg"
+                    alt="Cozy Bedroom">
+
+                <h3>
+                    Cozy Bedroom
+                </h3>
+
+                <p>
+                    A comfortable and peaceful space
+                    designed for a relaxing stay.
+                </p>
+
+            </div>
+
+
+            <!-- ROOM 2 -->
+
+            <div class="room-card">
+
+                <img
+                    src="images/bedroom.jpg"
+                    alt="Queen Room">
+
+                <h3>
+                    Queen Room
+                </h3>
+
+                <p>
+                    A warm and elegant room with
+                    everything you need to feel at home.
+                </p>
+
+            </div>
+
+
+            <!-- ROOM 3 -->
+
+            <div class="room-card">
+
+                <img
+                    src="images/bathroom.jpg"
+                    alt="Private Bathroom">
+
+                <h3>
+                    Private Bathroom
+                </h3>
+
+                <p>
+                    A clean and comfortable private
+                    space for your everyday needs.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         GALLERY
+    ========================================= -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="gallery-heading">
+
+            <p class="section-label">
+                GALLERY
+            </p>
+
+            <h2>
+                Moments at Le Cocoon.
+            </h2>
+
+            <p>
+                A glimpse into the peaceful spaces and simple comforts
+                that make your stay special.
+            </p>
+
+        </div>
+
+
+        <!-- MAIN GALLERY -->
+
+        <div class="gallery-grid">
+
+            <!-- 0 -->
+
+            <div class="gallery-item terrace">
+
+                <img
+                    src="images/tares.jpg"
+                    alt="Le Cocoon Terrace"
+                    onclick="openImage(0)">
+
+            </div>
+
+
+            <!-- 1 -->
+
+            <div class="gallery-item hall">
+
+                <img
+                    src="images/hall.jpg"
+                    alt="Le Cocoon Hall"
+                    onclick="openImage(1)">
+
+            </div>
+
+
+            <!-- 2 -->
+
+            <div class="gallery-item singlebed">
+
+                <img
+                    src="images/singlebed.jpg"
+                    alt="Single Bed"
+                    onclick="openImage(2)">
+
+            </div>
+
+
+            <!-- 3 -->
+
+            <div class="gallery-item queenbed">
+
+                <img
+                    src="images/doublebedd.jpg"
+                    alt="Queen Bed"
+                    onclick="openImage(3)">
+
+            </div>
+
+
+            <!-- 4 -->
+
+            <div class="gallery-item veranda">
+
+                <img
+                    src="images/varanda.jpg"
+                    alt="Le Cocoon Veranda"
+                    onclick="openImage(4)">
+
+            </div>
+
+
+            <!-- 5 -->
+
+            <div class="gallery-item bathroom">
+
+                <img
+                    src="images/bathroom.jpg"
+                    alt="Le Cocoon Bathroom"
+                    onclick="openImage(5)">
+
+            </div>
+
+        </div>
+
+
+        <!-- MORE GALLERY -->
+
+        <div class="gallery-grid-more" id="moreGallery">
+
+            <!-- 6 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/doublebed.jpg"
+                    alt="Double Bed"
+                    onclick="openImage(6)">
+
+            </div>
+
+
+            <!-- 7 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/queen.jpg"
+                    alt="Queen Room"
+                    onclick="openImage(7)">
+
+            </div>
+
+
+            <!-- 8 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/queenbeds.jpg"
+                    alt="Queen Beds"
+                    onclick="openImage(8)">
+
+            </div>
+
+
+            <!-- 9 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/twobed.jpg"
+                    alt="Two Beds"
+                    onclick="openImage(9)">
+
+            </div>
+
+
+            <!-- 10 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/vaaranda.jpg"
+                    alt="Veranda"
+                    onclick="openImage(10)">
+
+            </div>
+
+
+            <!-- 11 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/house.jpg"
+                    alt="Le Cocoon House"
+                    onclick="openImage(11)">
+
+            </div>
+
+
+            <!-- 12 -->
+
+            <div class="gallery-item">
+
+                <img
+                    src="images/fronthouse.jpg"
+                    alt="Le Cocoon Front House"
+                    onclick="openImage(12)">
+
+            </div>
+
+        </div>
+
+
+        <!-- SEE MORE -->
+
+        <button
+            class="see-more-button"
+            id="seeMoreButton"
+            onclick="toggleGallery()">
+
+            See More
+
+        </button>
+
+    </section>
+
+
+    <!-- ========================================
+         IMAGE LIGHTBOX
+    ========================================= -->
+
+    <div
+        class="image-lightbox"
+        id="imageLightbox">
+
+        <!-- CLOSE -->
+
+        <button
+            class="close-lightbox"
+            onclick="closeImage()"
+            aria-label="Close image">
+
+            &times;
+
+        </button>
+
+
+        <!-- PREVIOUS -->
+
+        <button
+            class="lightbox-prev"
+            onclick="previousImage()"
+            aria-label="Previous image">
+
+            &#10094;
+
+        </button>
+
+
+        <!-- IMAGE -->
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="Full size image">
+
+
+        <!-- NEXT -->
+
+        <button
+            class="lightbox-next"
+            onclick="nextImage()"
+            aria-label="Next image">
+
+            &#10095;
+
+        </button>
+
+    </div>
+
+
+    <!-- ========================================
+         REVIEWS
+    ========================================= -->
+
+    <section class="reviews" id="reviews">
+
+        <div class="reviews-heading">
+
+            <p class="section-label">
+                GUEST REVIEWS
+            </p>
+
+            <h2>
+                What our guests say.
+            </h2>
+
+            <p>
+                Real experiences from guests who stayed
+                at Le Cocoon.
+            </p>
+
+        </div>
+
+
+        <!-- ELFSIGHT GOOGLE REVIEWS -->
+
+        <script
+            src="https://elfsightcdn.com/platform.js"
+            async>
+        </script>
+
+        <div
+            class="elfsight-app-50e7b554-b996-424c-b9b3-3f52bc10dce9"
+            data-elfsight-app-lazy>
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         LOCATION
+    ========================================= -->
+
+    <section
+        class="location-section"
+        id="location">
+
+        <div class="location-content">
+
+            <p class="section-label">
+                LOCATION
+            </p>
+
+            <h2>
+                Find Your Way to Le Cocoon.
+            </h2>
+
+            <p>
+                Nestled in the peaceful surroundings of Navarkulam,
+                Puducherry, Le Cocoon is your private escape,
+                close to the best of Pondicherry.
+            </p>
+
+        </div>
+
+
+        <div class="location-map">
+
+            <iframe
+                src="https://www.google.com/maps?q=Le%20Cocoon%2C%20657%2C%20Seventh%20Cross%20St%2C%20Kalaivaanar%20Nagar%2C%20Navarkulam%2C%20Puducherry%2C%20Tamil%20Nadu%20605008&output=embed"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================================
+         BOOKING
+    ========================================= -->
+    <section class="booking-section" id="booking">
+
+    <div class="booking-card">
+
+        <div class="booking-offer">
+            <strong>Take 10% off your next stay.</strong>
+            <span>Terms apply</span>
+        </div>
+
+        <h2>Book Your Stay</h2>
+
+        <div class="booking-dates">
+
+            <div class="date-box">
+                <label for="checkin">CHECK-IN</label>
+                <input type="date" id="checkin">
+            </div>
+
+            <div class="date-box">
+                <label for="checkout">CHECK-OUT</label>
+                <input type="date" id="checkout">
+            </div>
+
+        </div>
+
+        <div class="guest-box">
+
+            <div>
+                <span>Guests</span>
+                <small id="guestSummary">2 guests</small>
+            </div>
+
+            <button type="button" id="guestButton">
+                <span>2 guests</span>
+                <span>⌄</span>
+            </button>
+
+        </div>
+
+        <div class="guest-menu" id="guestMenu">
+
+            <div class="guest-row">
+                <div>
+                    <strong>Adults</strong>
+                    <small>Age 13+</small>
+                </div>
+
+                <div class="counter">
+                    <button type="button" onclick="changeGuest('adults', -1)">−</button>
+                    <span id="adultCount">2</span>
+                    <button type="button" onclick="changeGuest('adults', 1)">+</button>
+                </div>
+            </div>
+
+            <div class="guest-row">
+                <div>
+                    <strong>Children</strong>
+                    <small>Ages 2–12</small>
+                </div>
+
+                <div class="counter">
+                    <button type="button" onclick="changeGuest('children', -1)">−</button>
+                    <span id="childrenCount">0</span>
+                    <button type="button" onclick="changeGuest('children', 1)">+</button>
+                </div>
+            </div>
+
+            <div class="guest-row">
+                <div>
+                    <strong>Infants</strong>
+                    <small>Under 2</small>
+                </div>
+
+                <div class="counter">
+                    <button type="button" onclick="changeGuest('infants', -1)">−</button>
+                    <span id="infantCount">0</span>
+                    <button type="button" onclick="changeGuest('infants', 1)">+</button>
+                </div>
+            </div>
+
+            <div class="guest-row">
+                <div>
+                    <strong>Pets</strong>
+                    <small>Pets aren't allowed</small>
+                </div>
+
+                <div class="counter">
+                    <span>0</span>
+                </div>
+            </div>
+
+            <p class="guest-note">
+                Maximum 2 guests, not including infants.
+            </p>
+
+        </div>
+
+        <div class="price-box">
+            <span>₹1,951 × <span id="nightCount">0</span> nights</span>
+            <strong id="totalPrice">₹0</strong>
+        </div>
+
+        <button class="reserve-button" id="reserveButton">
+            Reserve
+        </button>
+
+        <p class="booking-note">
+            You won't be charged yet
+        </p>
+
+    </div>
+
+</section>
+    
+
+    <!-- ========================================
+         FOOTER
+    ========================================= -->
+
+    <footer>
+
+        <h3>
+            LE COCOON
+        </h3>
+
+        <p>
+            PONDICHERRY · INDIA
+        </p>
+
+        <p>
+            © 2026 Le Cocoon Homestay
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+    <!-- FLOATING SOCIAL BUTTONS -->
+
+<div class="floating-social">
+
+    <!-- WhatsApp -->
+    <a
+        href="https://wa.me/917339476299"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="social-button"
+        aria-label="Contact Le Cocoon on WhatsApp"
+    >
+        <img src="images/what.png" alt="WhatsApp">
+    </a>
+
+    <!-- Instagram -->
+    <a
+        href="https://www.instagram.com/oviya__l/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="social-button"
+        aria-label="Follow Oviya on Instagram"
+    >
+        <img src="images/insta.png" alt="Instagram">
+    </a>
+
+</div>
+
+</body>
+
+</html>
