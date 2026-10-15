@@ -48,11 +48,9 @@ nav {
 
 .logo {
     font-family: Georgia, "Times New Roman", serif;
-
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 3px;
-
     color: #24170f;
 }
 
@@ -65,17 +63,13 @@ nav {
     display: flex;
     align-items: center;
     gap: 32px;
-
     list-style: none;
 }
 
 .nav-links a {
     text-decoration: none;
-
     color: #24170f;
-
     font-size: 14px;
-
     transition: 0.3s;
 }
 
@@ -90,17 +84,12 @@ nav {
 
 .book-button {
     display: inline-block;
-
     padding: 13px 25px;
-
     background: #934624;
     color: #ffffff;
-
     text-decoration: none;
-
     font-size: 13px;
     font-weight: 600;
-
     transition: 0.3s;
 }
 
@@ -118,7 +107,6 @@ nav {
     min-height: 650px;
 
     display: grid;
-
     grid-template-columns: 48% 52%;
 
     background: #ffffff;
@@ -131,9 +119,7 @@ nav {
 
 .hero-content {
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
 
     padding: 70px 50px 70px 8%;
@@ -146,11 +132,8 @@ nav {
 
 .location {
     font-size: 13px;
-
     letter-spacing: 4px;
-
     color: #934624;
-
     margin-bottom: 28px;
 }
 
@@ -161,15 +144,10 @@ nav {
 
 .hero h1 {
     font-family: Georgia, "Times New Roman", serif;
-
     font-size: 62px;
-
     font-weight: 400;
-
     line-height: 1.05;
-
     color: #24170f;
-
     margin-bottom: 30px;
 }
 
@@ -180,13 +158,9 @@ nav {
 
 .hero-text {
     max-width: 500px;
-
     font-size: 16px;
-
     line-height: 1.7;
-
     color: #756c64;
-
     margin-bottom: 35px;
 }
 
@@ -201,13 +175,11 @@ nav {
     padding: 14px 30px;
 
     background: #934624;
-
     color: #ffffff;
 
     text-decoration: none;
 
     font-size: 14px;
-
     font-weight: 600;
 
     transition: 0.3s;
@@ -227,7 +199,6 @@ nav {
     height: 650px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -264,17 +235,14 @@ nav {
     flex-shrink: 0;
 
     border: 1px solid #934624;
-
     border-radius: 50%;
 
     background: #ffffff;
-
     color: #934624;
 
     font-size: 20px;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
@@ -285,9 +253,7 @@ nav {
 
 .slider-button:hover {
     background: #934624;
-
     color: #ffffff;
-
     transform: scale(1.08);
 }
 
@@ -305,7 +271,6 @@ nav {
     padding: 130px 0;
 
     display: grid;
-
     grid-template-columns: 1fr 1fr;
 
     gap: 100px;
@@ -322,7 +287,6 @@ nav {
     position: relative;
 
     width: 100%;
-
     height: 560px;
 
     padding: 0 35px 35px 0;
@@ -371,11 +335,8 @@ nav {
 
 .about-content .section-label {
     font-size: 11px;
-
     letter-spacing: 4px;
-
     color: #934624;
-
     margin-bottom: 22px;
 }
 
@@ -383,7 +344,6 @@ nav {
     font-family: Georgia, "Times New Roman", serif;
 
     font-size: 54px;
-
     font-weight: 400;
 
     line-height: 1.08;
@@ -395,11 +355,8 @@ nav {
 
 .about-content > p:not(.section-label) {
     font-size: 16px;
-
     line-height: 1.9;
-
     color: #756c64;
-
     margin-bottom: 18px;
 }
 
@@ -437,19 +394,22 @@ nav {
 .host-info img {
     width: 82px;
     height: 82px;
+
     border-radius: 50%;
+
     object-fit: cover;
     object-position: center;
-    border: 3px solid #ffffff;
-    box-shadow: 0 8px 25px rgba(36, 23, 15, 0.15);
-}
 
+    border: 3px solid #ffffff;
+
+    box-shadow:
+        0 8px 25px rgba(36, 23, 15, 0.15);
+}
 
 .host-info h3 {
     font-family: Georgia, "Times New Roman", serif;
 
     font-size: 24px;
-
     font-weight: 400;
 
     color: #24170f;
@@ -459,9 +419,7 @@ nav {
 
 .host-info .instagram {
     font-size: 13px;
-
     color: #934624;
-
     margin: 0;
 }
 
@@ -504,7 +462,6 @@ nav {
 
 .about-button:hover {
     background: #934624;
-
     color: #ffffff;
 }
 
@@ -788,7 +745,6 @@ nav {
 
 .see-more-button:hover {
     background: #934624;
-
     color: #ffffff;
 }
 
@@ -882,7 +838,6 @@ nav {
 
 .close-lightbox {
     top: 25px;
-
     right: 30px;
 
     font-size: 30px;
@@ -1087,62 +1042,93 @@ nav {
 .booking-button {
     margin-top: 10px;
 }
+
+
 /* ========================================
    BOOKING CARD
 ======================================== */
 
 .booking-section {
     width: 100%;
+
     padding: 100px 20px;
+
     background: #f7f3ee;
+
     display: flex;
+
     justify-content: center;
 }
 
 .booking-card {
     width: 100%;
+
     max-width: 460px;
+
     background: #ffffff;
+
     padding: 30px;
+
     border: 1px solid #e1d8cf;
+
     border-radius: 18px;
-    box-shadow: 0 20px 60px rgba(36, 23, 15, 0.12);
+
+    box-shadow:
+        0 20px 60px rgba(36, 23, 15, 0.12);
 }
 
 .booking-offer {
     padding: 14px 16px;
+
     margin-bottom: 25px;
+
     background: #f4eee7;
+
     border-radius: 10px;
+
     font-size: 13px;
+
     line-height: 1.5;
 }
 
 .booking-offer strong {
     display: block;
+
     color: #30251e;
 }
 
 .booking-offer span {
     color: #806f61;
+
     text-decoration: underline;
+
     cursor: pointer;
 }
 
 .booking-card h2 {
     margin-bottom: 25px;
+
     color: #30251e;
+
     font-size: 28px;
+
     font-weight: 500;
 }
 
-/* DATES */
+
+/* ========================================
+   DATES
+======================================== */
 
 .booking-dates {
     display: grid;
+
     grid-template-columns: 1fr 1fr;
+
     border: 1px solid #bfb4aa;
+
     border-radius: 12px;
+
     overflow: hidden;
 }
 
@@ -1156,69 +1142,109 @@ nav {
 
 .date-box label {
     display: block;
+
     margin-bottom: 7px;
+
     color: #5f5147;
+
     font-size: 10px;
+
     font-weight: 700;
+
     letter-spacing: 1px;
 }
 
 .date-box input {
     width: 100%;
+
     border: none;
+
     outline: none;
+
     background: transparent;
+
     color: #30251e;
+
     font-size: 14px;
+
     font-family: inherit;
 }
 
-/* GUEST BOX */
+
+/* ========================================
+   GUEST BOX
+======================================== */
 
 .guest-box {
     margin-top: 14px;
+
     padding: 15px;
+
     border: 1px solid #bfb4aa;
+
     border-radius: 12px;
 
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
 }
 
 .guest-box > div span {
     display: block;
+
     color: #30251e;
+
     font-size: 14px;
+
     font-weight: 600;
 }
 
 .guest-box small {
     color: #806f61;
+
     font-size: 12px;
 }
 
 .guest-box button {
     display: flex;
+
     align-items: center;
+
     gap: 10px;
+
     border: none;
+
     background: transparent;
+
     cursor: pointer;
+
     color: #30251e;
+
     font-size: 14px;
 }
 
-/* GUEST MENU */
+
+/* ========================================
+   GUEST MENU
+======================================== */
 
 .guest-menu {
     display: none;
+
     margin-top: 8px;
+
     padding: 8px 15px;
+
     border: 1px solid #ded5cd;
+
     border-radius: 12px;
+
     background: #ffffff;
-    box-shadow: 0 15px 35px rgba(36, 23, 15, 0.1);
+
+    box-shadow:
+        0 15px 35px rgba(36, 23, 15, 0.1);
 }
 
 .guest-menu.show {
@@ -1227,9 +1253,13 @@ nav {
 
 .guest-row {
     display: flex;
+
     align-items: center;
+
     justify-content: space-between;
+
     padding: 16px 0;
+
     border-bottom: 1px solid #eee8e2;
 }
 
@@ -1239,29 +1269,40 @@ nav {
 
 .guest-row strong {
     display: block;
+
     color: #30251e;
+
     font-size: 14px;
 }
 
 .guest-row small {
     color: #806f61;
+
     font-size: 12px;
 }
 
 .counter {
     display: flex;
+
     align-items: center;
+
     gap: 13px;
 }
 
 .counter button {
     width: 30px;
     height: 30px;
+
     border: 1px solid #bfb4aa;
+
     border-radius: 50%;
+
     background: #ffffff;
+
     color: #30251e;
+
     font-size: 18px;
+
     cursor: pointer;
 }
 
@@ -1271,65 +1312,97 @@ nav {
 
 .counter span {
     min-width: 15px;
+
     text-align: center;
+
     font-size: 14px;
 }
 
 .guest-note {
     margin: 12px 0 5px;
+
     color: #806f61;
+
     font-size: 12px;
+
     line-height: 1.5;
 }
 
-/* PRICE */
+
+/* ========================================
+   PRICE
+======================================== */
 
 .price-box {
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
+
     margin-top: 25px;
+
     padding-top: 22px;
+
     border-top: 1px solid #e2dad3;
+
     color: #5f5147;
+
     font-size: 14px;
 }
 
 .price-box strong {
     color: #30251e;
+
     font-size: 18px;
 }
 
-/* RESERVE */
+
+/* ========================================
+   RESERVE
+======================================== */
 
 .reserve-button {
     width: 100%;
+
     margin-top: 22px;
+
     padding: 16px;
+
     border: none;
+
     border-radius: 10px;
+
     background: #30251e;
+
     color: #ffffff;
+
     font-size: 15px;
+
     font-weight: 600;
+
     letter-spacing: 0.3px;
+
     cursor: pointer;
+
     transition: 0.3s ease;
 }
 
 .reserve-button:hover {
     background: #4a392e;
+
     transform: translateY(-1px);
 }
 
 .booking-note {
     margin-top: 12px;
+
     text-align: center;
+
     color: #806f61;
+
     font-size: 12px;
 }
-
-
 
 
 /* ========================================
@@ -1364,17 +1437,21 @@ footer p {
     margin-top: 8px;
 }
 
+
 /* ========================================
    FLOATING WHATSAPP + INSTAGRAM
 ======================================== */
 
 .floating-social {
     position: fixed;
+
     right: 25px;
     bottom: 25px;
 
     display: flex;
+
     flex-direction: column;
+
     gap: 12px;
 
     z-index: 9999;
@@ -1385,6 +1462,7 @@ footer p {
     height: 55px;
 
     display: flex;
+
     align-items: center;
     justify-content: center;
 
@@ -1413,6 +1491,7 @@ footer p {
     box-shadow:
         0 12px 30px rgba(36, 23, 15, 0.25);
 }
+
 
 /* ========================================
    EXTRA LARGE DESKTOP
@@ -1482,8 +1561,6 @@ footer p {
         font-size: 13px;
     }
 
-    /* HERO */
-
     .hero h1 {
         font-size: 52px;
     }
@@ -1496,8 +1573,6 @@ footer p {
         width: 320px;
         height: 420px;
     }
-
-    /* ROOMS */
 
     .room-container {
         grid-template-columns: repeat(2, 1fr);
@@ -1524,15 +1599,13 @@ footer p {
         font-size: 13px;
     }
 
-
-    /* HERO */
-
     .hero {
         grid-template-columns: 1fr;
     }
 
     .hero-content {
         min-height: 500px;
+
         padding: 80px 8%;
     }
 
@@ -1549,11 +1622,9 @@ footer p {
         height: 450px;
     }
 
-
-    /* ABOUT */
-
     .about {
         grid-template-columns: 1fr;
+
         gap: 50px;
     }
 
@@ -1561,9 +1632,6 @@ footer p {
         max-width: 100%;
     }
 
-
-    /* ROOMS */
-
     .room-container {
         grid-template-columns: 1fr 1fr;
     }
@@ -1571,163 +1639,55 @@ footer p {
 
 
 /* ========================================
-   TABLET PORTRAIT
-   601px - 768px
+   MOBILE RESPONSIVE
+   0px - 768px
 ======================================== */
 
-@media (min-width: 601px) and (max-width: 768px) {
+@media (max-width: 768px) {
+
+    /* PAGE */
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
 
     /* NAV */
 
     nav {
-        width: 90%;
+        width: 92%;
+
         min-height: auto;
-        padding: 20px 0;
+
+        padding: 18px 0;
 
         flex-direction: column;
-        gap: 20px;
+
+        gap: 18px;
+    }
+
+    .logo {
+        font-size: 20px;
+
+        letter-spacing: 2px;
     }
 
     .nav-links {
+        width: 100%;
+
+        display: flex;
+
         flex-wrap: wrap;
+
         justify-content: center;
-        gap: 15px;
+
+        gap: 10px 16px;
     }
 
-
-    /* HERO */
-
-    .hero {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-content {
-        min-height: 480px;
-        padding: 70px 8%;
-    }
-
-    .hero h1 {
-        font-size: 48px;
-    }
-
-    .hero-text {
-        font-size: 16px;
-    }
-
-    .hero-image {
-        height: 480px;
-    }
-
-    .hero-image img {
-        width: 300px;
-        height: 380px;
-    }
-
-
-    /* ABOUT */
-
-    .about {
-        width: 90%;
-        grid-template-columns: 1fr;
-        gap: 40px;
-        padding: 70px 0;
-    }
-
-    .about-image {
-        height: 400px;
-    }
-
-    .about-content h2 {
-        font-size: 42px;
-    }
-
-
-    /* ROOMS */
-
-    .room-container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    /* GALLERY */
-
-    .gallery {
-        width: 90%;
-        padding: 70px 0;
-    }
-
-    .gallery-heading h2 {
-        font-size: 42px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-
-    /* REVIEWS */
-
-    .reviews {
-        width: 90%;
-        padding: 70px 0;
-    }
-
-    .reviews-heading h2 {
-        font-size: 42px;
-    }
-
-
-    /* LOCATION */
-
-    .location-section {
-        width: 90%;
-        padding: 70px 0;
-    }
-
-    .location-content h2 {
-        font-size: 42px;
-    }
-
-    .location-map {
-        height: 400px;
-    }
-
-
-    /* BOOKING */
-
-    .booking {
-        padding: 70px 8%;
-    }
-
-    .booking h2 {
-        font-size: 40px;
-    }
-}
-
-
-/* ========================================
-   LARGE MOBILE
-   481px - 600px
-   iPhone Plus / Pro Max / Android
-======================================== */
-
-@media (min-width: 481px) and (max-width: 600px) {
-
-    /* NAV */
-
-    nav {
-        min-height: auto;
-        padding: 20px 0;
-
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 14px;
+    .nav-links a {
+        font-size: 12px;
     }
 
     nav .book-button {
@@ -1737,32 +1697,96 @@ footer p {
 
     /* HERO */
 
+    .hero {
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        min-height: auto;
+    }
+
     .hero-content {
-        min-height: 500px;
-        padding: 70px 7%;
+        width: 100%;
+
+        min-height: auto;
+
+        padding: 65px 7% 55px;
+
+        justify-content: center;
+    }
+
+    .location {
+        font-size: 11px;
+
+        letter-spacing: 3px;
+
+        margin-bottom: 20px;
     }
 
     .hero h1 {
-        font-size: 44px;
+        font-size: clamp(34px, 10vw, 48px);
+
+        line-height: 1.08;
+
+        margin-bottom: 22px;
     }
 
     .hero-text {
-        font-size: 15px;
+        width: 100%;
+
+        max-width: 100%;
+
+        font-size: 14px;
+
+        line-height: 1.7;
+
+        margin-bottom: 28px;
     }
 
+    .hero-button {
+        padding: 13px 25px;
+
+        font-size: 13px;
+    }
+
+
+    /* HERO IMAGE */
+
     .hero-image {
-        height: 500px;
-        gap: 12px;
+        width: 100%;
+
+        height: auto;
+
+        min-height: 390px;
+
+        padding: 35px 15px;
+
+        gap: 10px;
+
+        overflow: hidden;
     }
 
     .hero-image img {
-        width: 250px;
-        height: 310px;
+        width: min(70vw, 280px);
+
+        height: min(82vw, 350px);
+
+        max-width: 280px;
+
+        max-height: 350px;
+
+        object-fit: cover;
     }
 
     .slider-button {
         width: 40px;
+
         height: 40px;
+
+        flex-shrink: 0;
+
         font-size: 17px;
     }
 
@@ -1771,212 +1795,81 @@ footer p {
 
     .about {
         width: 90%;
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+
         padding: 75px 0;
     }
 
     .about-image {
-        height: 350px;
+        width: 100%;
+
+        height: auto;
+
+        min-height: 300px;
+
+        padding: 0 20px 20px 0;
+    }
+
+    .about-image::before {
+        top: 20px;
+
+        left: 20px;
+
+        width: calc(100% - 20px);
+
+        height: calc(100% - 20px);
+    }
+
+    .about-content {
+        width: 100%;
+
+        max-width: 100%;
     }
 
     .about-content h2 {
-        font-size: 40px;
-    }
+        font-size: clamp(32px, 9vw, 42px);
 
-    .host-info img {
-        width: 70px;
-        height: 70px;
-    }
-
-
-    /* ROOMS */
-
-    .room-container {
-        grid-template-columns: 1fr;
-    }
-
-    .rooms h2 {
-        font-size: 40px;
-    }
-
-
-    /* GALLERY */
-
-    .gallery {
-        width: 90%;
-        padding: 80px 0;
-    }
-
-    .gallery-heading h2 {
-        font-size: 40px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-    }
-
-
-    /* REVIEWS */
-
-    .reviews {
-        width: 90%;
-        padding: 80px 0;
-    }
-
-    .reviews-heading h2 {
-        font-size: 40px;
-    }
-
-
-    /* LOCATION */
-
-    .location-section {
-        width: 90%;
-        padding: 80px 0;
-    }
-
-    .location-content h2 {
-        font-size: 40px;
-    }
-
-    .location-map {
-        height: 350px;
-    }
-
-
-    /* BOOKING */
-
-    .booking {
-        padding: 80px 7%;
-    }
-
-    .booking h2 {
-        font-size: 38px;
-    }
-
-    .booking-section {
-        padding: 70px 15px;
-    }
-
-    .booking-card {
-        padding: 22px;
-        border-radius: 15px;
-    }
-
-    .booking-card h2 {
-        font-size: 24px;
-    }
-
-    .booking-dates {
-        grid-template-columns: 1fr;
-    }
-
-    .date-box:first-child {
-        border-right: none;
-        border-bottom: 1px solid #bfb4aa;
-    }
-
-
-    /* SOCIAL */
-
-    .floating-social {
-        right: 16px;
-        bottom: 18px;
-        gap: 10px;
-    }
-
-    .social-button {
-        width: 50px;
-        height: 50px;
-    }
-
-    .social-button img {
-        width: 28px;
-        height: 28px;
-    }
-}
-
-
-/* ========================================
-   NORMAL MOBILE
-   376px - 480px
-   iPhone / Android
-======================================== */
-
-@media (min-width: 376px) and (max-width: 480px) {
-
-    nav {
-        padding: 18px 12px;
-        gap: 18px;
-    }
-
-    .nav-links {
-        gap: 12px;
-    }
-
-    .nav-links a {
-        font-size: 13px;
-    }
-
-
-    /* HERO */
-
-    .hero-content {
-        min-height: 460px;
-        padding: 60px 6%;
-    }
-
-    .hero h1 {
-        font-size: 38px;
         line-height: 1.1;
     }
 
-    .hero-text {
+    .about-content > p:not(.section-label) {
         font-size: 14px;
-        line-height: 1.6;
+
+        line-height: 1.8;
     }
 
-    .hero-image {
-        height: 430px;
-        gap: 8px;
-    }
-
-    .hero-image img {
-        width: 210px;
-        height: 270px;
-    }
-
-    .slider-button {
-        width: 38px;
-        height: 38px;
-        font-size: 16px;
-    }
-
-
-    /* ABOUT */
-
-    .about {
-        width: 90%;
-        padding: 65px 0;
-    }
-
-    .about-image {
-        height: 300px;
-    }
-
-    .about-content h2 {
-        font-size: 36px;
+    .host-info {
+        align-items: flex-start;
     }
 
 
     /* ROOMS */
 
-    .room-container {
-        grid-template-columns: 1fr;
+    .rooms {
+        width: 90%;
+
+        padding: 75px 0;
     }
 
     .rooms h2 {
-        font-size: 36px;
+        font-size: clamp(32px, 9vw, 42px);
+
+        margin-bottom: 35px;
+    }
+
+    .room-container {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .room-card img {
+        height: 250px;
     }
 
 
@@ -1984,62 +1877,80 @@ footer p {
 
     .gallery {
         width: 90%;
-        padding: 65px 0;
+
+        padding: 75px 0;
+    }
+
+    .gallery-heading {
+        margin-bottom: 35px;
     }
 
     .gallery-heading h2 {
-        font-size: 36px;
+        font-size: clamp(32px, 9vw, 42px);
+    }
+
+    .gallery-heading p:not(.section-label) {
+        font-size: 14px;
+
+        line-height: 1.7;
     }
 
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
 
         grid-template-rows:
-            190px
-            190px
-            190px
-            190px;
+            180px
+            180px
+            180px
+            180px;
 
         gap: 8px;
     }
 
     .gallery-item.terrace {
         grid-column: 1 / 3;
+
         grid-row: 1;
     }
 
     .gallery-item.hall {
         grid-column: 1;
+
         grid-row: 2;
     }
 
     .gallery-item.singlebed {
         grid-column: 2;
+
         grid-row: 2;
     }
 
     .gallery-item.queenbed {
         grid-column: 1 / 3;
+
         grid-row: 3;
     }
 
     .gallery-item.veranda {
         grid-column: 1;
+
         grid-row: 4;
     }
 
     .gallery-item.bathroom {
         grid-column: 2;
+
         grid-row: 4;
     }
 
     .gallery-grid-more {
         grid-template-columns: 1fr 1fr;
+
         gap: 8px;
     }
 
     .gallery-grid-more .gallery-item {
-        height: 170px;
+        height: 160px;
     }
 
 
@@ -2050,22 +1961,29 @@ footer p {
     }
 
     .image-lightbox img {
-        max-width: 90vw;
+        max-width: 92vw;
+
         max-height: 75vh;
     }
 
     .close-lightbox {
         top: 12px;
+
         right: 12px;
-        width: 40px;
-        height: 40px;
+
+        width: 42px;
+
+        height: 42px;
+
         font-size: 23px;
     }
 
     .lightbox-prev,
     .lightbox-next {
         width: 40px;
+
         height: 40px;
+
         font-size: 18px;
     }
 
@@ -2082,11 +2000,16 @@ footer p {
 
     .reviews {
         width: 90%;
-        padding: 65px 0;
+
+        padding: 75px 0;
     }
 
     .reviews-heading h2 {
-        font-size: 36px;
+        font-size: clamp(32px, 9vw, 42px);
+    }
+
+    .reviews-heading p:not(.section-label) {
+        font-size: 14px;
     }
 
 
@@ -2094,26 +2017,31 @@ footer p {
 
     .location-section {
         width: 90%;
-        padding: 65px 0;
+
+        padding: 75px 0;
     }
 
     .location-content h2 {
-        font-size: 36px;
+        font-size: clamp(32px, 9vw, 42px);
+    }
+
+    .location-content p:not(.section-label) {
+        font-size: 14px;
     }
 
     .location-map {
-        height: 300px;
+        height: 320px;
     }
 
 
     /* BOOKING */
 
     .booking {
-        padding: 65px 6%;
+        padding: 70px 7%;
     }
 
     .booking h2 {
-        font-size: 34px;
+        font-size: clamp(30px, 8vw, 40px);
     }
 
     .booking-section {
@@ -2121,11 +2049,15 @@ footer p {
     }
 
     .booking-card {
-        padding: 18px;
+        width: 100%;
+
+        padding: 20px;
+
+        border-radius: 14px;
     }
 
     .booking-card h2 {
-        font-size: 22px;
+        font-size: 23px;
     }
 
     .booking-dates {
@@ -2134,266 +2066,100 @@ footer p {
 
     .date-box:first-child {
         border-right: none;
+
         border-bottom: 1px solid #bfb4aa;
     }
 
 
-    /* SOCIAL */
+    /* FOOTER */
+
+    footer {
+        padding: 45px 7%;
+    }
+
+
+    /* FLOATING SOCIAL */
 
     .floating-social {
         right: 12px;
+
         bottom: 15px;
+
         gap: 8px;
     }
 
     .social-button {
         width: 46px;
+
         height: 46px;
     }
 
     .social-button img {
         width: 25px;
+
         height: 25px;
     }
 }
 
 
 /* ========================================
-   SMALL MOBILE
-   320px - 375px
-   Small Android / older iPhone
+   VERY SMALL PHONES
+   0px - 380px
 ======================================== */
 
-@media (max-width: 375px) {
-
-    /* NAV */
-
-    nav {
-        padding: 16px 10px;
-        gap: 15px;
-    }
+@media (max-width: 380px) {
 
     .nav-links {
-        gap: 10px;
+        gap: 8px 12px;
     }
 
     .nav-links a {
-        font-size: 12px;
+        font-size: 11px;
     }
-
-    nav .book-button {
-        display: none;
-    }
-
-
-    /* HERO */
 
     .hero-content {
-        min-height: 430px;
-        padding: 55px 5%;
-    }
+        padding-left: 6%;
 
-    .hero h1 {
-        font-size: 34px;
-        line-height: 1.1;
-    }
-
-    .hero-text {
-        font-size: 13px;
-        line-height: 1.5;
+        padding-right: 6%;
     }
 
     .hero-image {
-        height: 380px;
-        gap: 6px;
+        min-height: 330px;
+
+        padding-left: 8px;
+
+        padding-right: 8px;
     }
 
     .hero-image img {
-        width: 180px;
-        height: 240px;
+        width: 62vw;
+
+        height: 72vw;
+
+        max-width: 230px;
+
+        max-height: 270px;
     }
 
     .slider-button {
-        width: 35px;
-        height: 35px;
-        font-size: 15px;
-    }
+        width: 36px;
 
-
-    /* ABOUT */
-
-    .about {
-        width: 92%;
-        padding: 55px 0;
-    }
-
-    .about-image {
-        height: 260px;
-    }
-
-    .about-content h2 {
-        font-size: 32px;
-    }
-
-
-    /* ROOMS */
-
-    .room-container {
-        grid-template-columns: 1fr;
-    }
-
-    .rooms h2 {
-        font-size: 32px;
-    }
-
-
-    /* GALLERY */
-
-    .gallery {
-        width: 92%;
-        padding: 55px 0;
-    }
-
-    .gallery-heading h2 {
-        font-size: 32px;
-    }
-
-    .gallery-heading p:not(.section-label) {
-        font-size: 13px;
+        height: 36px;
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr 1fr;
-
         grid-template-rows:
-            160px
-            160px
-            160px
-            160px;
-
-        gap: 6px;
-    }
-
-    .gallery-grid-more {
-        gap: 6px;
+            150px
+            150px
+            150px
+            150px;
     }
 
     .gallery-grid-more .gallery-item {
-        height: 140px;
-    }
-
-
-    /* LIGHTBOX */
-
-    .image-lightbox {
-        padding: 10px;
-    }
-
-    .image-lightbox img {
-        max-width: 94vw;
-        max-height: 72vh;
-    }
-
-    .close-lightbox {
-        top: 10px;
-        right: 10px;
-        width: 38px;
-        height: 38px;
-        font-size: 21px;
-    }
-
-    .lightbox-prev,
-    .lightbox-next {
-        width: 36px;
-        height: 36px;
-        font-size: 17px;
-    }
-
-    .lightbox-prev {
-        left: 5px;
-    }
-
-    .lightbox-next {
-        right: 5px;
-    }
-
-
-    /* REVIEWS */
-
-    .reviews {
-        width: 92%;
-        padding: 55px 0;
-    }
-
-    .reviews-heading h2 {
-        font-size: 32px;
-    }
-
-
-    /* LOCATION */
-
-    .location-section {
-        width: 92%;
-        padding: 55px 0;
-    }
-
-    .location-content h2 {
-        font-size: 32px;
-    }
-
-    .location-map {
-        height: 260px;
-    }
-
-
-    /* BOOKING */
-
-    .booking {
-        padding: 55px 5%;
-    }
-
-    .booking h2 {
-        font-size: 30px;
-    }
-
-    .booking-section {
-        padding: 55px 10px;
+        height: 135px;
     }
 
     .booking-card {
         padding: 16px;
-        border-radius: 12px;
-    }
-
-    .booking-card h2 {
-        font-size: 20px;
-    }
-
-    .booking-dates {
-        grid-template-columns: 1fr;
-    }
-
-    .date-box:first-child {
-        border-right: none;
-        border-bottom: 1px solid #bfb4aa;
-    }
-
-
-    /* SOCIAL */
-
-    .floating-social {
-        right: 10px;
-        bottom: 12px;
-        gap: 7px;
-    }
-
-    .social-button {
-        width: 42px;
-        height: 42px;
-    }
-
-    .social-button img {
-        width: 23px;
-        height: 23px;
     }
 }
